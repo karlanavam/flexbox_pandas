@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFD7E1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.itemsContainers {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.itemsContainerAround {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.flex-flowNoW {
+    flex-flow: row nowrap;
+}
+
+.itemCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 200px;
+    height: 100%;
+}
+
+.m-img {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+section p {
+    width: 45%;
+    text-align: justify;
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.4em;
+    font-family: 'Delius Unicase', cursive;
+    background: #FE7C9C;
+    color: white;
+    text-align: center;
+}
+
+.aUno {
+    font-size: 1.5em;
+    font-family: 'Coming Soon', cursive;
+    display: inline-block;
+    color: #1C3580;
+    padding: 10px;
+}
+
+.aUno:hover {
+    background-color: azure;
+}
+
+nav {
+    background: #95FFCF;
+}
+
+.aDos {
+    font-size: 1em;
+    font-family: 'Coming Soon', cursive;
+    display: inline-block;
+    color: #1C3580;
+    padding: 10px;
+    text-align: center;
+}
+
+.menuParrafos {
+    background-color: #C7FFEB;
+    width: 30%;
+    text-align: center;
+}
+
+p{
+    font-family: 'Coming Soon', cursive;
+}
