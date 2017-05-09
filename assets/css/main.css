@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #FFD7E1;
+    background-color: #361134;
 }
 
 .container {
@@ -58,7 +58,7 @@ header {
     padding-bottom: 25px;
     font-size: 1.4em;
     font-family: 'Delius Unicase', cursive;
-    background: #FE7C9C;
+    background: #B0228C;
     color: white;
     text-align: center;
 }
@@ -67,7 +67,7 @@ header {
     font-size: 1.5em;
     font-family: 'Coming Soon', cursive;
     display: inline-block;
-    color: #1C3580;
+    color: #1C35EA378880;
     padding: 10px;
 }
 
@@ -89,7 +89,7 @@ nav {
 }
 
 .menuParrafos {
-    background-color: #C7FFEB;
+    background-color: #F391A0;
     width: 30%;
     text-align: center;
 }
