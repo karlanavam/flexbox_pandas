@@ -1,16 +1,25 @@
 // imagenes borrar
-var divImagen = document.getElementsByClassName('pandas')[0];
 var span = document.getElementsByClassName("close");
-var sectionImgs = document.getElementsByClassName("sectionImg")[0];
 
 for (var i = 0; i < span.length; i++){
-  //span[i] = document.getElementsByClassName("close")[0];
   span[i].addEventListener("click",cerrar);
 }
 
 function cerrar() {
   this.parentNode.style.display="none";
 }
+
+
+// Restaurar imagenes
+var botonRestaura = document.getElementById('botonRestaurar');
+botonRestaura.addEventListener("click", restaurarImagenes);
+
+function restaurarImagenes() {
+  for(var i=0; i < span.length; i++){
+    span[i].parentNode.style.display = "flex";
+  }
+}
+
 
 // textos y botones
 var botonOrigen = document.getElementById("botonOrigen");
@@ -39,17 +48,6 @@ function mostrarH() {
 function ocultarH() {
   textoHistoria.style.visibility = "hidden";
 }
-
-// Restaurar imagenes
-var botonRestaura = document.getElementById('botonRestaurar');
-botonRestaura.addEventListener("click", restaurarImagenes);
-
-function restaurarImagenes() {
-  for(var i=0; i < span.length; i++){
-    span[i].parentNode.style.display = "flex";
-  }
-}
-
 
 
 
