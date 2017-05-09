@@ -113,3 +113,11 @@ span {
     display: flex;
     justify-content: flex-start;
 }
+
+#textoOrigen {
+    visibility: hidden;   
+}
+
+#textoHistoria {
+    visibility: hidden;
+}

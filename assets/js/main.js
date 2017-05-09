@@ -47,3 +47,7 @@ botonRestaurar.addEventListener("click", restaurarImagenes);
 function restaurarImagenes() {
   divImagen.style.display = "inline";
 }
+
+
+
+
