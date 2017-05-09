@@ -14,7 +14,6 @@ body {
 }
 
 
-
 .itemsContainers {
     display: flex;
     justify-content: space-between;   
@@ -39,6 +38,7 @@ body {
 .img {
     width: 200px;
     height: 100%;
+    border-radius: 500px;
 }
 
 .m-img {
@@ -67,7 +67,7 @@ header {
     font-size: 1.5em;
     font-family: 'Coming Soon', cursive;
     display: inline-block;
-    color: #1C35EA378880;
+    color: #378880;
     padding: 10px;
 }
 
@@ -86,17 +86,20 @@ nav {
     color: #1C3580;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .menuParrafos {
     background-color: #F391A0;
     width: 30%;
     text-align: center;
+    border-radius: 20px;
 }
 
 p{
     font-family: 'Coming Soon', cursive;
     margin-left: -10px;
+    color: #378880;
 }
 
 .mt-parrafos {
@@ -107,6 +110,7 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    color: azure;
 }  
 
 .sectionImg {
