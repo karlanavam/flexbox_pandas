@@ -1,6 +1,7 @@
 // imagenes borrar
 var divImagen = document.getElementsByClassName('pandas')[0];
 var span = document.getElementsByClassName("close");
+var sectionImgs = document.getElementsByClassName("sectionImg")[0];
 
 for (var i = 0; i < span.length; i++){
   //span[i] = document.getElementsByClassName("close")[0];
@@ -20,7 +21,7 @@ var textoHistoria = document.getElementById('textoHistoria');
 
 botonOrigen.addEventListener("click", mostrarO);
 botonOrigen.addEventListener("dblclick", ocultarO);
-
+ 
 botonHistoria.addEventListener("click", mostrarH);
 botonHistoria.addEventListener("dblclick", ocultarH);
 
@@ -40,10 +41,15 @@ function ocultarH() {
 }
 
 // Restaurar imagenes
-var botonRestaurar = document.getElementById('botonRestaurar');
-
-botonRestaurar.addEventListener("click", restaurarImagenes);
+var botonRestaura = document.getElementById('botonRestaurar');
+botonRestaura.addEventListener("click", restaurarImagenes);
 
 function restaurarImagenes() {
-  divImagen.style.display = "inline";
+  for(var i=0; i < span.length; i++){
+    span[i].parentNode.style.display = "flex";
+  }
 }
+
+
+
+

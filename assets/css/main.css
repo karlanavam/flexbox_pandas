@@ -96,6 +96,7 @@ nav {
 
 p{
     font-family: 'Coming Soon', cursive;
+    margin-left: -10px;
 }
 
 .mt-parrafos {
@@ -106,4 +107,17 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+}  
+
+.sectionImg {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#textoOrigen {
+    visibility: hidden;   
+}
+
+#textoHistoria {
+    visibility: hidden;
 }
